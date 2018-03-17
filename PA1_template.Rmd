@@ -20,6 +20,7 @@ This is a project to demonstrate Reproducible Research with the *activity* datas
 1. Load the data
 
 ```{r readin}
+unzip("activity.zip", "activity.csv")
 d <- read.csv("activity.csv")
 ```
 
